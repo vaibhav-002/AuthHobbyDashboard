@@ -1,0 +1,69 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.dashboard-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.dashboard-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dashboard-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-container li {
+  margin-bottom: 10px;
+}
+
+.dashboard-container h2 {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.dashboard-container p {
+  margin-bottom: 10px;
+}
+
+.dashboard-container img {
+  max-width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hobby-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
